@@ -1,6 +1,6 @@
 **English** | [中文](README_CN.md)
 
-# KernelSU
+# KernelSU for Exynos 9810
 
 A Kernel based root solution for Android devices.
 
@@ -8,6 +8,11 @@ A Kernel based root solution for Android devices.
 
 1. Kernel-based `su` and root access management.
 2. Module system based on overlayfs.
+## Installation
+
+1. clone ksu branch kernel source.
+2. clone this repo inside kernel source under KernelSU
+3. Build ROM as normal.
 
 ## Compatibility State
 
